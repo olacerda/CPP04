@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   WrongAnimal.hpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olacerda <olacerda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: otlacerd <otlacerd@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 00:30:16 by olacerda          #+#    #+#             */
-/*   Updated: 2026/11/06 01:03:27 by olacerda         ###   ########.fr       */
+/*   Updated: 2026/11/09 17:00:47 by otlacerd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class WrongAnimal
         WrongAnimal& operator=(const WrongAnimal& object);
 
         std::string     getType() const;
-        virtual void    makeSound() const;
+        void    makeSound() const;
 };
 
 #endif
